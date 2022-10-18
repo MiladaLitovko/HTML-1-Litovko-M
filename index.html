@@ -6,27 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Страница с рассказом обо мне</title>
     <link rel="shortcut icon" href="/images/klipartz.com.png">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <img src="/images/Logo.png" alt="Logo">
+        <header>
             <div class="menu">
-                <ul>
-                    <li><a href="index.html">Кто я?</a></li>
-                    <li><a href="#">Моя история</a></li>
-                    <li><a href="#">Мои контакты</a></li>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#hwoami">Кто я?</a></li>
+                    <li class="menu__list__item"><a href="#story">Моя история</a></li>
+                    <li class="menu__list__item"><a href="#footer">Мои контакты</a></li>
                 </ul>
+                <h1>Приветствую, странник!</h1>
+                <a href="#"><img src="/images/Logo.png" alt="Logo" class="menu__logo"></a>
             </div>
-            </div>
+        </header>
         <div class="content">
-            <h1>Приветствую, странник!</h1>
             <img src="/images/XOsX.gif" alt="приветствие">
-            <p>Всем привет! Спасибо, что перешли на мою страницу. Меня зовут Милада. Мне 22 года. И это моя история</p>
+            <section id="hwoami">
+                <p>Всем привет! Спасибо, что перешли на мою страницу. Меня зовут Милада. Мне 22 года. И это моя история</p>
+                <br />
+                <p>Интересный факт – японцы никогда не приветствуют друг друга привычными для нас фразами. Причина тому – их вечная занятость. 
+                    Одним приветствием они хотят получить максимум информации за раз. 
+                    А, вот в Таиланде нормально поднимать обе руки вверх, когда видишь знакомого человека, плеваться в Кении и высовывать языки на Тибете.</p>
+            </section>
+            <img src="/images/Story1.png" alt="My story">
+            <section id="story">
+                <h2>Моя история</h2>
+                <p>Года три-четыре назад приснился сон, что у меня есть любимый человек, и я его откуда-то жду. Сон был как наяву, поэтому запомнила, во что любимый был одет, на какой машине приехал.
+                    Прошло около года, познакомилась с молодым человеком. Всё было в точности так, как во сне! Совпали одежда, марка и цвет машины. Я чуть не упала, когда он приехал за мной. Вместе третий год. Любимый до сих пор не верит в мой сон.</p>
+            </section>
         </div>
-        <div class="footer">
+        <footer id="footer">
             <p>Все права защищены. Перейдите вверх, нажав <a href="#top">на ссылку</a></p>
-        </div>
+            <p>Москва,125167,Ленинградский проспект, д. 39, стр. 79<br>
+                +7 (499) 350-97-03<br>
+                milka-team@mcs.mail.ru</p>
+        </footer>
 </div>
 </body>
 </html>
