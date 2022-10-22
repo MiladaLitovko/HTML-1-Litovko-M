@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body  id ="body">
     <div class="container">
         <header>
             <div class="menu">
@@ -46,6 +46,18 @@
                 +7 (499) 350-97-03<br>
                 milka-team@mcs.mail.ru</p>
         </footer>
+        <div class="modal" id="modal">
+            <div class="modal__body">
+                <form id="modalForm">
+                    <div>
+                        <h2 class="modal__body__title">Введите ваше имя</h2>
+                        <input id="modalInput" class="modal__body__input" placeholder="Введите ваше имя" name="name"/>
+                    </div>
+                    <button type="submit" id="modalBtn" class="modal__body__button">Подтвердить</button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/homework2.js"></script>
 </div>
 </body>
 </html>
